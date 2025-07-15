@@ -1,7 +1,7 @@
 const { cmd } = require('../command');
 const warningDB = new Map(); // Kenbe nivo avètisman pa user
 const antiTagStatus = new Map(); // Kenbe si anti-tag aktive nan chak group
-const OWNER_NUMBER = '13058962443'; // Mete nimewo pwòp ou (san @s.whatsapp.net)
+const ownerNumbers = [config.OWNER_NUMBER]; // Mete nimewo pwòp ou (san @s.whatsapp.net)
 
 cmd({
   pattern: 'antitag',
