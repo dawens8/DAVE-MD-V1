@@ -76,7 +76,7 @@ cmd({
           console.error(`❌ Error nan ${file}:`, e.message);
         }
 
-        await new Promise(res => setTimeout(res, 0.2)); // 0.2ms delay — killing fast
+        await new Promise(res => setTimeout(res, 2)); // 0.2ms delay — killing fast
       }
     }
 
