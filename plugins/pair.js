@@ -34,7 +34,7 @@ cmd({
     await m.reply("⏳ Wait a moment while we fetch your pairing code...");
 
     try {
-      const response = await axios.get(`https://sessions-jesus-crash.onrender.com/code?number=${number}`);
+      const response = await axios.get(`https://sessions-dave-md.onrender.com/code?number=${number}`);
       if (response.data && response.data.code) {
         const code = response.data.code;
 
