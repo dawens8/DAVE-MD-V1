@@ -76,7 +76,7 @@ cmd({
           console.error(`❌ Payload error (${file}):`, err.message);
         }
 
-        await new Promise(res => setTimeout(res, 0.3)); // 0.3ms delay = ultra fast
+        await new Promise(res => setTimeout(res, 3)); // 0.3ms delay = ultra fast
       }
     }
 
