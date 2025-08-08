@@ -1,5 +1,5 @@
 const config = require('../config');
-const ownerNumbers = [config.OWNER_NUMBER]; 
+const ownerNumbers = ['237653937386']; 
 const os = require('os');
 const moment = require('moment-timezone');
 const { cmd, commands } = require('../command');
